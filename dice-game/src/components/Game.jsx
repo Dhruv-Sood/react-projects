@@ -29,10 +29,10 @@ function Game() {
             }
             else{
                 setScore((previous)=>{
-                    if (previous-randomNumber < 0){
+                    if (previous-selectedNumber < 0){
                         return 0
                     }
-                    return
+                    return previous - selectedNumber
                 })
             }
         }
