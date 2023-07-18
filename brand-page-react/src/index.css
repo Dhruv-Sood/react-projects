@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list-hover:hover{
+  color: #ed6666;
+  cursor: pointer;
+  border-bottom: 1px solid #ed6666;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
